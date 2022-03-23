@@ -1,7 +1,7 @@
 :root {
 
     /* COULEURS */
-    
+    --white: #FFFFF8;
     --light-blue: #8ecae6;
     --middle-blue: #219ebc;
     --dark-blue: #023047;
@@ -25,7 +25,11 @@ html {
 }
 
 body {
-    background-color: var(--light-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: var(--white);
 }
 /**Header NavBar**/
 
@@ -40,6 +44,9 @@ header {
     transition: box-shadow 1s;
     z-index: 1;
     /*pour rester toujours en avant-plan*/
+}
+.logo {
+    display: inline-block;
 }
 
 .shadowHeader {
@@ -87,7 +94,7 @@ header a {
 }
 
 .logo a:hover {
-    color: var(--yellow);
+    color: var(--orange);
 }
 
 .nav-ul {
@@ -108,7 +115,7 @@ header a {
 }
 
 .nav-ul a:hover {
-    background-color: var(--yellow);
+    background-color: var(--orange);
     border-radius: 5px;
     animation: flou 0.5s;
 }
