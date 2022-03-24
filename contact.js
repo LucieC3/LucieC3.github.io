@@ -1,4 +1,4 @@
-const message = "Merci ! A bientôt !";
+const message = "Merci ! Nous vous recontacterons dans les meilleurs délais !";
 
 document
   .getElementById("contactForm")
