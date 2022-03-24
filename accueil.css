@@ -24,9 +24,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    /* background-color: var(--light-blue); */
-}
+
 /**Header NavBar**/
 
 header {
@@ -218,10 +216,10 @@ header a {
     overflow: hidden;
     text-align: center;
     margin-bottom: 15px;
-  }
+   } 
   
   @media screen and (min-width: 992px) { 
-      .slider-container {
+      .slider-container { 
           /* hauteur img de la version desktop*/
           height: 300px;
       }
@@ -244,8 +242,8 @@ header a {
     height: 16px;
     background: #fff;
     border-radius: 50px;
-    margin: 0 0.2em 1em;
-  }
+    margin: 0 0.2em 1em; 
+   }
   .menu label:hover,
   .menu label:focus {
     background: #1c87c9;
@@ -279,19 +277,27 @@ header a {
   }
   /* CSS du diaporama FIN */
   
-  
-   
+
     /* CSS citation */
-    .citation_container {
+
+    .citation_container  {
       display: flex;
-      position: relative;
+      justify-content: center;
+
+    }
+    .citation {
+      display: flex;
       flex-direction: column;
-      align-items: flex-start;
-      padding-left: 30px;
-      background-color: white;
+     background-color:#F5f5f5;
+      width: 50%;
+      height:50%;
       border-radius: 8px;
       font-family: 'Jost', sans-serif;
-      font-size: 16px;    
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 10px;  
+      box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+      
     }
     
     .citation_author {
@@ -333,8 +339,12 @@ header a {
       
       /* Mode desktop */
     @media screen and (min-width: 992px) { 
-      .citation_container {      
-         background-color: #FB8500;
+      .citation {      
+        width: 50%;
+        height:50%;
+      }
+      .citation_author_name {
+        font-size: 25px;
       }
       .citation_avatar {
         background-color: transparent;
@@ -346,6 +356,13 @@ header a {
       .citation_picture {
         width: 100px;
         height: 100px;
+      }
+      .citation_body {
+        font-size: 15px;
+      }
+      .detentebtn, .sallebtn, .seancesbtn{
+        font-size: 30px;
+
       }
       
     }
