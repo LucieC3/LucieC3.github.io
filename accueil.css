@@ -269,7 +269,7 @@ header a {
     background-image: url("/RESSOURCES/IMAGES/StudioGym.png");
   }
   .slide-2 {
-    background-image: url("/RESSOURCES/IMAGES/fitness.png");
+    background-image: url("/RESSOURCES/IMAGES/Fitness.png");
   }
   .slide-3 {
     background-image: url("/RESSOURCES/IMAGES/womanGym.png");
@@ -287,7 +287,6 @@ header a {
       padding-left: 30px;
       background-color: white;
       border-radius: 8px;
-      font-family: 'Jost', sans-serif;
       font-size: 16px;    
     }
     
@@ -427,6 +426,7 @@ header a {
    .div_coach{
      margin-left: 20px;
    }
+   
   /* fin CSS de photo coach+citation*/
   
   /* début CSS de photo client+citation*/
