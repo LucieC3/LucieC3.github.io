@@ -24,7 +24,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 /**Header NavBar**/
 
 header {
@@ -267,13 +266,13 @@ header a {
     transition: left 0.65s ease-out;
   }
   .slide-1 {
-    background-image: url("/RESSOURCES/IMAGES/img1.png");
+    background-image: url("/RESSOURCES/IMAGES/StudioGym.png");
   }
   .slide-2 {
-    background-image: url("/RESSOURCES/IMAGES/img2.jpg");
+    background-image: url("/RESSOURCES/IMAGES/fitness.png");
   }
   .slide-3 {
-    background-image: url("/RESSOURCES/IMAGES/img3.jpg");
+    background-image: url("/RESSOURCES/IMAGES/womanGym.png");
   }
   /* CSS du diaporama FIN */
   
@@ -417,11 +416,11 @@ header a {
       font-size: 16px;
       
     }
-  /* FIN CCS Espaces Disciplines */
+  /* FIN CCS Espaces Disciplines */ 
   /* CSS de photo coach+citation*/
   
   .flex-container-c {
-    height: 100px;
+    height: 100%;
     margin-top: 2%;
     padding: 2%;
     border: black;
@@ -435,7 +434,9 @@ header a {
     width: 20%;
     position: relative;
     right:auto;
+    
    }
+   
   
    #img_etoile{
     width: 20%;
@@ -452,6 +453,7 @@ header a {
    #img_client{
     width: 100%;
     height: 100%;
+    max-width: 70%
    }
    .container_client{
     width: 15%;
